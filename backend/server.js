@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/api', taskRoutes);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 
 connectDB();
 app.listen(port, ()=>{
